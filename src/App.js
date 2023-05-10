@@ -1,24 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Suspense } from "react";
+import { Canvas } from "react-three-fiber";
+
+import "./App.css";
+
+import { useGLTF } from "@react-three/drei";
+
+function Model(props) {
+  const { nodes, materials } = useGLTF("/Hair3.gltf");
+  return (
+    <group {...props} dispose={null}>
+      <mesh
+        geometry={nodes.Hair008.geometry}
+        material={materials["Hair Mat"]}
+      />
+    </group>
+  );
+}
+
+useGLTF.preload("/Hair3.gltf");
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Canvas style={{ background: "#000", width:"auto" }}>
+        <ambientLight intensity={1} />
+        <spotLight
+          intensity={0.5}
+          angle={0.1}
+          penumbra={1}
+          position={[10, 15, 10]}
+          castShadow
+        />
+        <Suspense fallback={null}>
+          <Model />
+        </Suspense>
+      </Canvas>
+      ;
+    </>
   );
 }
 
