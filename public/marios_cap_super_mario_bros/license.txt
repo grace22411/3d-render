@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mario's Cap (Super Mario Bros)
+* source:	https://sketchfab.com/3d-models/marios-cap-super-mario-bros-82bcc48237ec4ff98ce770de60913d26
+* author:	Anthony Yanez (https://sketchfab.com/paulyanez)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mario's Cap (Super Mario Bros)" (https://sketchfab.com/3d-models/marios-cap-super-mario-bros-82bcc48237ec4ff98ce770de60913d26) by Anthony Yanez (https://sketchfab.com/paulyanez) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

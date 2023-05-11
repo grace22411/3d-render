@@ -1,0 +1,11 @@
+Model Information:
+* title:	nadu Hair
+* source:	https://sketchfab.com/3d-models/nadu-hair-f94120eeb3f442eb853e60602501cf82
+* author:	backdoor3d (https://sketchfab.com/backdoor3d)
+
+Model License:
+* license type:	CC-BY-ND-4.0 (http://creativecommons.org/licenses/by-nd/4.0/)
+* requirements:	Author must be credited. Modified versions can not be distributed. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "nadu Hair" (https://sketchfab.com/3d-models/nadu-hair-f94120eeb3f442eb853e60602501cf82) by backdoor3d (https://sketchfab.com/backdoor3d) licensed under CC-BY-ND-4.0 (http://creativecommons.org/licenses/by-nd/4.0/)

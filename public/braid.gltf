@@ -1,0 +1,290 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.0.cd42b995)"
+    },
+    "extensionsUsed": [
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 5200,
+            "type": "VEC3",
+            "max": [
+                8.129536628723145,
+                179.47250366210938,
+                7.731346607208252
+            ],
+            "min": [
+                -8.072047233581543,
+                160.908447265625,
+                -10.881044387817383
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 5200,
+            "type": "VEC3",
+            "max": [
+                0.9995827674865723,
+                0.9996388554573059,
+                0.8484081625938416
+            ],
+            "min": [
+                -0.9999725222587586,
+                -0.6775919198989868,
+                -0.998673141002655
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 5200,
+            "type": "VEC2",
+            "max": [
+                0.9530202150344849,
+                0.9787200093269348
+            ],
+            "min": [
+                0.04842999950051308,
+                0.12418991327285767
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 30336,
+            "type": "SCALAR",
+            "max": [
+                5199
+            ],
+            "min": [
+                0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 307182,
+            "type": "VEC3",
+            "max": [
+                8.66360092163086,
+                180.35255432128907,
+                7.539358139038086
+            ],
+            "min": [
+                -8.571016311645508,
+                114.70223236083985,
+                -14.077789306640625
+            ]
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 307182,
+            "type": "VEC3",
+            "max": [
+                0.999995231628418,
+                0.9999899864196777,
+                0.9999942779541016
+            ],
+            "min": [
+                -0.9999976754188538,
+                -0.9999483227729797,
+                -0.9999948143959045
+            ]
+        },
+        {
+            "bufferView": 6,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 307182,
+            "type": "VEC2",
+            "max": [
+                1.0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                -31.0
+            ]
+        },
+        {
+            "bufferView": 7,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 1012734,
+            "type": "SCALAR",
+            "max": [
+                307181
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 14168504,
+            "uri": "result.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 62400,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 62400,
+            "byteLength": 62400,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 124800,
+            "byteLength": 41600,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 166400,
+            "byteLength": 121344,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 287744,
+            "byteLength": 3686184,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3973928,
+            "byteLength": 3686184,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 7660112,
+            "byteLength": 2457456,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 10117568,
+            "byteLength": 4050936,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "Scalp",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    0.9721955060958862,
+                    0.8166621923446655,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.8632611036300659
+            }
+        },
+        {
+            "name": "Braid MAT 3",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.3253222107887268,
+                    0.3505537807941437,
+                    0.3011839985847473,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.9389259815216065
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Imani Scalp_254252",
+            "primitives": [
+                {
+                    "extensions": {
+                        "FB_ngon_encoding": {}
+                    },
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                },
+                {
+                    "extensions": {
+                        "FB_ngon_encoding": {}
+                    },
+                    "mode": 4,
+                    "material": 1,
+                    "indices": 7,
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "Imani Scalp_254252.Shape",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                1.6192780468730684e-16,
+                0.7292580008506775,
+                0.8219886422157288,
+                1.0
+            ],
+            "mesh": 0
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
